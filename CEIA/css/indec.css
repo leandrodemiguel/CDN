@@ -1,0 +1,845 @@
+/*
+Copia de todo el css del INDEC, para usar de referencia
+*/
+.containerCenso {
+    color: #555;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.containerPrueba {
+    color: #555;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    max-width: 800px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.containerActividades {
+    color: #555;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    max-width: 800px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.containerCenso strong {
+    color: #215680;
+    font-weight: 600;
+}
+
+.containerActividades strong {
+    color: #215680;
+    font-weight: 600;
+}
+
+.containerCenso em {
+    font-style: italic;
+}
+
+.containerActividades em {
+    font-style: italic;
+}
+
+.containerCenso u {
+    text-decoration: underline;
+}
+
+.containerCenso ul {
+    list-style: none;
+}
+
+.containerCenso ul li::before {
+    content: "\2022";
+    color: #215680;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.containerActividades ul {
+    list-style: none;
+}
+
+.containerActividades ul li::before {
+    content: "\2022";
+    color: #215680;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.img-resp {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-small {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo {
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(163, 204, 227);
+    text-shadow: 2px 2px 6px #1c486b;
+    padding: 8px;
+}
+
+.subrayado_titulo {
+    width: 100%;
+    margin: auto;
+    padding: 3px;
+    color: #215680;
+    font-weight: bold;
+    border-bottom: solid #215680;
+}
+
+.recuadro_strong {
+    width: 95%;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: #215680;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #215680;
+    box-shadow: 0px 3px 5px 0px rgba(212, 212, 212, 1);
+}
+
+.recuadro_imprimibles {
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: #f7ac46;
+    font-weight: 700;
+    box-shadow: 0 3px 5px 0 rgba(212, 212, 212, 1);
+}
+
+.recuadro_actividades {
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: #215680;
+    font-weight: 700;
+    box-shadow: 0 3px 5px 0 rgba(212, 212, 212, 1);
+}
+
+.recuadro_light {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    background-position: 9px 0px;
+    background-repeat: no-repeat;
+    border: solid 1px #3498db;
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 15px 60px;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.azul {
+    color: #215680;
+}
+
+.atencion {
+    color: red;
+    font-weight: 600;
+}
+
+.esp0 {
+    margin-top: 20px;
+}
+
+.esp1 {
+    margin-top: 30px;
+}
+
+.esp2 {
+    margin-top: 40px;
+}
+
+.esp3 {
+    margin-top: 50px;
+}
+
+.esp4 {
+    margin-top: 60px;
+}
+
+.esp5 {
+    margin-top: 100px;
+}
+
+.containerCenso a {
+    text-decoration: none;
+    color: #2f92d4;
+}
+
+.containerCenso a:hover {
+    color: #2f92d4;
+}
+
+.containerCenso a:active {
+    color: #2f92d4;
+}
+
+.containerCenso a:visited {
+    color: #2f92d4;
+}
+
+.hideLinks a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hideLinks a:hover {
+    color: #fff;
+}
+
+.hideLinks a:active {
+    color: #fff;
+}
+
+.hideLinks a:visited {
+    color: #fff;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.containerVideoBienvenida {
+    max-width: 780px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.videoWrapperBienvenida {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.videoWrapperBienvenida iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.containerTabla1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.containerTabla1 > div {
+    padding: 20px;
+    font-size: 20px;
+    color: #215680;
+    font-weight: 600;
+    text-align: center;
+}
+
+.containerTabla2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.containerTabla2 > div {
+    padding: 20px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.zebraTabla2 {
+    background-color: #eff0f2;
+}
+
+.containerTabla3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.containerTabla3 > div {
+    padding: 20px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.containerTabla4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    align-items: center;
+}
+
+.containerTabla5 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+}
+
+.containerTabla6 {
+    width: 100%;
+    margin: auto;
+}
+
+.tableJdR {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tableJdR th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tableJdR td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.containerTabla6 th {
+    background-color: #e7e4e4;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.containerTabla6 td,
+.containerTabla6 th {
+    text-align: center;
+}
+
+.containerCoordinadoresTabs {
+    max-width: 1080px;
+    margin: auto;
+}
+
+.gridCoordinadoresTabs {
+    display: grid;
+    grid-template-columns: minmax(260px, 800px) minmax(150px, 250px);
+    grid-column-gap: 30px;
+}
+
+/* Sitio Global */
+
+@media print {
+    #page-header {
+        display: none;
+    }
+
+    #page-footer {
+        display: none;
+    }
+
+    .activity-navigation {
+        display: none;
+    }
+}
+
+.forgetpass {
+    display: none;
+}
+
+.section .activity.modtype_label.label {
+    padding: 0px;
+}
+
+#page-header .logo img {
+    max-height: 115px;
+}
+
+.section .label .mod-indent-outer {
+    padding-left: 0px;
+    display: block;
+}
+
+
+/* Curso Inducción */
+
+/* Side_by_side buttons */
+
+.filasButtonsInduccion {
+    display: flex;
+}
+
+.columnasButtonsInduccion {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.containerInduccion {
+    color: #555;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    max-width: 780px;
+    padding: 10px;
+    margin: auto;
+    overflow: hidden;
+    text-align: justify;
+    /*    background-color: #f0f1f2; */
+}
+
+.containerInduccion strong {
+    color: #555;
+    font-weight: 600;
+}
+
+.containerInduccion em {
+    font-style: italic;
+}
+
+.containerInduccion u {
+    text-decoration: underline;
+}
+
+.containerInduccion ul {
+    list-style: none;
+}
+
+.containerInduccion ul li::before {
+    content: "\2022";
+    color: #555;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.recuadro_strong_Induccion {
+    width: 95%;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: #555;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #555;
+    box-shadow: 0px 3px 5px 0px rgba(212, 212, 212, 1);
+}
+
+/* INDEC Universidad */
+
+.containerIUni {
+    color: #555;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.BlockCodeIUni {
+    /* Para preformateado en bloque */
+    /* OJO! el div tiene que ir entre <pre></pre>
+    porque si no Moodle elimina el espacio en blanco
+    automáticamente */
+    white-space: pre;
+    font-family: monospace;
+    margin: 0;
+    background: #f0f0f0;
+    color: #444;
+    border: 1px solid #e1e4e5;
+    padding: 0.5em;
+    letter-spacing: normal;
+    overflow: auto;
+    display: block;
+}
+
+.BlockCodeIUniLine {
+    /* Para preformateado en línea */
+    white-space: pre;
+    font-family: monospace;
+    background: #f0f0f0;
+    color: #444;
+    border: 1px solid #e1e4e5;
+    letter-spacing: normal;
+}
+
+/* Encuesta Nacional sobre Consumos y Prácticas de Cuidado */
+
+.containerSedronar {
+    color: #555;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    max-width: 790px;
+    padding: 10px;
+    margin: auto;
+    overflow: hidden;
+    text-align: justify;
+    /*    background-color: #f0f1f2; */
+}
+
+.containerSedronar strong {
+    color: #3f344d;
+    font-weight: 600;
+}
+
+.containerSedronar em {
+    font-style: italic;
+}
+
+.containerSedronar u {
+    text-decoration: underline;
+}
+
+.containerSedronar ul {
+    list-style: none;
+}
+
+.containerSedronar ul li::before {
+    content: "\2022";
+    color: #3f344d;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.recuadro_strong_sedronar {
+    width: 95%;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: #3f344d;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #3f344d;
+    box-shadow: 0px 3px 5px 0px rgba(212, 212, 212, 1);
+}
+
+/* Curso CEIA */
+
+.containerCEIA {
+    color: #555;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.containerActividadesCEIA {
+    color: #555;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    max-width: 800px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.containerCEIA strong {
+    color: #52979f;
+    font-weight: 600;
+}
+
+.containerActividadesCEIA strong {
+    color: #52979f;
+    font-weight: 600;
+}
+
+.containerCEIA em {
+    color: #52979f;
+    font-style: italic;
+}
+
+.containerActividadesCEIA em {
+    color: #52979f;
+    font-style: italic;
+}
+
+.normalItalicCEIA {
+    font-style: italic;
+}
+
+.containerCEIA u {
+    text-decoration: underline;
+}
+
+.containerCEIA ul {
+    list-style: none;
+}
+
+.containerCEIA ul li::before {
+    content: "\2022";
+    color: #52979f;
+    font-weight: 700;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.containerActividadesCEIA ul {
+    list-style: none;
+}
+
+.containerActividadesCEIA ul li::before {
+    content: "\2022";
+    color: #52979f;
+    font-weight: 700;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.tituloCEIA {
+    font-size: 18px;
+    color: #fff;
+    background-color: #a3cce3;
+    text-shadow: 2px 2px 6px #52979f;
+    padding: 8px;
+}
+
+.subrayado_tituloCEIA {
+    width: 100%;
+    margin: auto;
+    padding: 3px;
+    color: #52979f;
+    font-weight: 700;
+    border-bottom: solid #215680;
+}
+
+.recuadro_strongCEIA {
+    width: 95%;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: #52979f;
+    font-weight: 700;
+    border-style: solid;
+    border-color: #89c9d5;
+    box-shadow: 0 3px 5px 0 #d4d4d4;
+}
+
+.recuadro_imprimiblesCEIA {
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: #f7ac46;
+    font-weight: 700;
+    box-shadow: 0 3px 5px 0 #d4d4d4;
+}
+
+.recuadro_actividadesCEIA {
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: #52979f;
+    font-weight: 700;
+    box-shadow: 0 3px 5px 0 #d4d4d4;
+}
+
+.recuadro_lightCEIA {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    background-position: 9px 0;
+    background-repeat: no-repeat;
+    border: solid 1px #89c9d5;
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 15px 60px;
+}
+
+.containerCEIA a {
+    text-decoration: underline;
+    color: #215680;
+}
+
+.containerCEIA a:hover {
+    color: #215680;
+}
+
+.containerCEIA a:active {
+    color: #215680;
+}
+
+.containerCEIA a:visited {
+    color: #215680;
+}
+
+.hideLinks a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hideLinks a:hover {
+    color: #fff;
+}
+
+.hideLinks a:active {
+    color: #fff;
+}
+
+.hideLinks a:visited {
+    color: #fff;
+}
+
+.img-border {
+    border: 5px solid #555;
+}
+
+.tooltipCEIA {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted #000;
+}
+
+.tooltipCEIA .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltipCEIA .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltipCEIA:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.adm_nota {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    background-color: #f0f7fb;
+    background-image: url(https://campusvirtual.indec.gob.ar/moodle/pluginfile.php/11048/mod_page/content/3/nota.webp);
+    background-position: 9px 0;
+    background-repeat: no-repeat;
+    border: solid 1px #3498db;
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 15px 60px;
+}
+
+.adm_ok {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    background-color: #f2fbf0;
+    background-image: url(https://campusvirtual.indec.gob.ar/moodle/pluginfile.php/11048/mod_page/content/3/ok.webp);
+    background-position: 9px 0;
+    background-repeat: no-repeat;
+    border: solid 1px #3ac24c;
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 15px 60px;
+}
+
+.adm_idea {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    background-color: #fbfbf0;
+    background-image: url(https://campusvirtual.indec.gob.ar/moodle/pluginfile.php/11048/mod_page/content/3/idea.webp);
+    background-position: 9px 0;
+    background-repeat: no-repeat;
+    border: solid 1px #e2d23d;
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 15px 60px;
+}
+
+.adm_atencion {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    background-color: #fbf1f0;
+    background-image: url(https://campusvirtual.indec.gob.ar/moodle/pluginfile.php/11048/mod_page/content/3/atencion.webp);
+    background-position: 9px 0;
+    background-repeat: no-repeat;
+    border: solid 1px #e74c3c;
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 15px 60px;
+}
+
+/* Plus Informatico */
+.container_plusinfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+

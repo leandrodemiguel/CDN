@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+#entorno {
+    font-family: "Helvetica Neue", Helvetica, "sans-serif";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.caja-bien {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+#bienvenida {
+    width: 100%;
+    /*background: #D9B5B6;*/
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Helvetica Neue", Helvetica, "sans-serif";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    border: solid 1px #d9d9d9;
+
+    box-shadow: 5px 5px 5px #d9d9d9;
+}
+
+.titulo-bien {
+    font-size: 19px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #4f4f4f;
+}
+
+.color-pf,
+.curso-modalidad-pf,
+n .curso-modalidad-pf ion-icon {
+    color: #2e2d7f;
+}
+.color-pf,
+.curso-modalidad-pf,
+.curso-modalidad-pf ion-icon {
+    color: #2e2d7f;
+}
+
+.curso-modalidad-ge,
+.curso-modalidad-pf,
+.curso-modalidad-iu,
+.curso-modalidad-tp,
+.curso-modalidad-re,
+.curso-modalidad-sas,
+.curso-modalidad-md {
+    /* margin-top: 40px; */
+    border: solid 2px;
+    padding: 35px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.curso-modalidad-ge ion-icon,
+.curso-modalidad-pf ion-icon,
+.curso-modalidad-iu ion-icon,
+.curso-modalidad-tp ion-icon,
+.curso-modalidad-re ion-icon,
+.curso-modalidad-sas ion-icon,
+.curso-modalidad-md ion-icon {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    font-size: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+a .boton-1-sas:hover,
+a .boton-1-ge:hover,
+a .boton-1-pf:hover,
+a .boton-1-iu:hover,
+a .boton-1-tp:hover,
+a .boton-1-re:hover {
+    opacity: 0.6;
+    margin-right: 20px;
+}
