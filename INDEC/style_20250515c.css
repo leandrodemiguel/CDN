@@ -58,6 +58,9 @@ APLICA ASI: var(--violeta-intenso);
 	max-width: 600px;
 	margin: auto;
 }
+.caja-bien ol, .caja-bien ul{
+padding-left: 35px;
+}
 
 *{text-align: left!important;}
 
@@ -78,7 +81,7 @@ APLICA ASI: var(--violeta-intenso);
 	
 }
 .tramo-bg{
-	background: url("https://cdn.jsdelivr.net/gh/leandrodemiguel/CDN@main/INDEC/img/img-tramo-inicio.png");
+	background: url(img/img-tramo-inicio.png);
 		border-radius: 5px;
 		background-size: cover;
 		border:solid 2px #006737!important;
@@ -108,12 +111,14 @@ APLICA ASI: var(--violeta-intenso);
 	font-weight: 200;
 	text-align: center;
 	color: #03569D;
-	line-height: 30px;
+	line-height: 30px!important;
 }
 
 .tramo-sub{
-		font-size: 19px;
-		font-weight: 600;
+		font-size: 19px!important;
+		font-weight: 600!important;
+	margin-bottom: 15px !important;
+  margin-top: 15px !important;
 }
 
 .linea{
@@ -1242,17 +1247,17 @@ color: #000000!important;}
 	.banner-1-tramo{
 		border-color: #2fb878;
 		/*background: #17653b;*/
-		background:url("img/img-tramo2a.png");
+		background:url("img/img-tramo2.png");
 		background-size: cover;
 	}
 
 	.cambio-bg1{
 
-	background:url("img/img-tramo3a.png");
+	background:url("img/img-tramo3.png");
 	background-size: cover;
 	}
 	.cambio-bg2{
-	background:url("img/img-tramo4a.png");
+	background:url("img/img-tramo4.png");
 	background-size: cover;
 	}
 
