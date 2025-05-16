@@ -81,7 +81,7 @@ padding-left: 35px;
 	
 }
 .tramo-bg{
-	background: url(img/img-tramo-inicio.png);
+	background: url("https://cdn.jsdelivr.net/gh/leandrodemiguel/CDN@main/INDEC/img/img-tramo-inicio.png");
 		border-radius: 5px;
 		background-size: cover;
 		border:solid 2px #006737!important;
@@ -1247,17 +1247,17 @@ color: #000000!important;}
 	.banner-1-tramo{
 		border-color: #2fb878;
 		/*background: #17653b;*/
-		background:url("img/img-tramo2.png");
+		background:url("https://cdn.jsdelivr.net/gh/leandrodemiguel/CDN@main/INDEC/img/img-tramo2.png");
 		background-size: cover;
 	}
 
 	.cambio-bg1{
 
-	background:url("img/img-tramo3.png");
+	background:url("https://cdn.jsdelivr.net/gh/leandrodemiguel/CDN@main/INDEC/img/img-tramo3.png");
 	background-size: cover;
 	}
 	.cambio-bg2{
-	background:url("img/img-tramo4.png");
+	background:url("https://cdn.jsdelivr.net/gh/leandrodemiguel/CDN@main/INDEC/img/img-tramo4.png");
 	background-size: cover;
 	}
 
