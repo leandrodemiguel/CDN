@@ -81,20 +81,20 @@ padding-left: 35px;
 	
 }
 .tramo-bg{
-	background: url(img/img-tramo-inicio.png);
+	background: url(https://cdn.jsdelivr.net/gh/leandrodemiguel/CDN@master/INDEC/img/img-tramo-inicio.png);
 		border-radius: 5px;
 		background-size: cover;
 		border:solid 2px #006737!important;
 }
 
 .mmuv-bg{
-	background: url(img/img-mmuv-inicio.png);
+	background: url(https://cdn.jsdelivr.net/gh/leandrodemiguel/CDN@master/INDEC/img/img-mmuv-inicio.png);
 		border-radius: 5px;
 		background-size: cover;
 }
 
 .ia-bg{
-	background: url(img/img-ia-inicio.png);
+	background: url(https://cdn.jsdelivr.net/gh/leandrodemiguel/CDN@master/INDEC/img/img-ia-inicio.png);
 		border-radius: 5px;
 		background-size: cover;
 }
@@ -1273,17 +1273,17 @@ color: #000000!important;}
 	.banner-1-tramo{
 		border-color: #2fb878;
 		/*background: #17653b;*/
-		background:url("img/img-tramo2.png");
+		background:url("https://cdn.jsdelivr.net/gh/leandrodemiguel/CDN@master/INDEC/img/img-tramo2.png");
 		background-size: cover;
 	}
 
 	.cambio-bg1{
 
-	background:url("img/img-tramo3.png");
+	background:url("https://cdn.jsdelivr.net/gh/leandrodemiguel/CDN@master/INDEC/img/img-tramo3.png");
 	background-size: cover;
 	}
 	.cambio-bg2{
-	background:url("img/img-tramo4.png");
+	background:url("https://cdn.jsdelivr.net/gh/leandrodemiguel/CDN@master/INDEC/img/img-tramo4.png");
 	background-size: cover;
 	}
 
@@ -1493,17 +1493,17 @@ color: #000000!important;}
 	.banner-1-mmuv{
 		border-color: #9ed4e7;
 		/*background: #17653b;*/
-		background:url("img/img-mmuv2.png");
+		background:url("https://cdn.jsdelivr.net/gh/leandrodemiguel/CDN@master/INDEC/img/img-mmuv2.png");
 		background-size: cover;
 	}
 
 	.cambio-bg1-mmuv{
 
-	background:url("img/img-mmuv3.png");
+	background:url("https://cdn.jsdelivr.net/gh/leandrodemiguel/CDN@master/INDEC/img/img-mmuv3.png");
 	background-size: cover;
 	}
 	.cambio-bg2-mmuv{
-	background:url("img/img-mmuv4.png");
+	background:url("https://cdn.jsdelivr.net/gh/leandrodemiguel/CDN@master/INDEC/img/img-mmuv4.png");
 	background-size: cover;
 	}
 
@@ -1636,17 +1636,17 @@ color: var(--ia-2)!important;}
 	.banner-1-ia{
 		border-color: var(--ia-3);
 		/*background: #17653b;*/
-		background:url("img/img-ia2.png");
+		background:url("https://cdn.jsdelivr.net/gh/leandrodemiguel/CDN@master/INDEC/img/img-ia2.png");
 		background-size: cover;
 	}
 
 	.cambio-bg1-ia{
 
-	background:url("img/img-ia3.png");
+	background:url("https://cdn.jsdelivr.net/gh/leandrodemiguel/CDN@master/INDEC/img/img-ia3.png");
 	background-size: cover;
 	}
 	.cambio-bg2-ia{
-	background:url("img/img-ia4.png");
+	background:url("https://cdn.jsdelivr.net/gh/leandrodemiguel/CDN@master/INDEC/img/img-ia4.png");
 	background-size: cover;
 	}
 
